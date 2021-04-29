@@ -1,8 +1,10 @@
-    html {
-        height: 100%;
-        box-sizing: border-box;
+       html {
+        background: url("./img/light-blue-sky-with-white-clouds-realistic-background-natural-banner-with-heavens_33099-624.jpg");
         /* font-family: 'Lato', sans-serif; */
         font-family: cursive;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     
     *,
@@ -11,12 +13,7 @@
         box-sizing: inherit;
     }
     
-    body {
-        background: url("./img/light-blue-sky-with-white-clouds-realistic-background-natural-banner-with-heavens_33099-624.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+    body {}
     
     .container {
         width: 40%;
@@ -85,7 +82,20 @@
             text-align: center;
             margin: 10px auto;
             border-radius: 15px;
-            margin-top: 50px;
-            padding: 20px;
+            margin-top: 30px;
+            padding: 15px;
+        }
+        .form button {
+            width: 160px;
+            height: 50px;
+            border-radius: 50px;
+        }
+        h1,
+        h3 {
+            margin: 0px;
+        }
+        .form input {
+            width: 160px;
+            height: 50px;
         }
     }
